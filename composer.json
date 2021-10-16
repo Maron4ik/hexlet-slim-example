@@ -1,0 +1,26 @@
+{
+    "name": "maron/hexlet-slim-example",
+    "autoload": {
+        "psr-4": {
+            "Maron\\HexletSlimExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexey Maron",
+            "email": "maron.alexey@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "dev-master",
+        "slim/http": "^1.2",
+        "guzzlehttp/guzzle": "*",
+        "tightenco/collect": "*",
+        "fzaninotto/faker": "^1.5"
+    }
+,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
